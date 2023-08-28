@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="{{url_for('static', filename='js/q04.js')}}"></script>
+</head>
+<body>
+    <h2>Que imagem você deseja ver?</h2>
+    <img src="{{url_for('static', filename='imgs/interrogacao.jpg')}}">
+    <p>
+    <input type="text" id="forma">
+    <button type="button" onclick="trocarImagem()">Enviar</button>
+    </p>
+</body>
+</html>
